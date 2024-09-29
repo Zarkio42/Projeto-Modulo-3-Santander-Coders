@@ -14,7 +14,7 @@ export class Cd extends Midia {
   }
 
   getDescricao(): string {
-    return `CD: ${this._titulo}, Autor: ${this._autor}, Ano: ${this._ano}, Genero: ${this._generoMusical}, Duração: ${this._duracao} min.`;
+    return `CD: ${this._titulo}, Artista: ${this._autor}, Ano: ${this._ano}, Genero: ${this._generoMusical}, Duração: ${this._duracao} min.`;
   }
 
   getGeneroMusical(): string {
