@@ -3,10 +3,11 @@ import { Revista } from "./model/Revista";
 import { Livro } from "./model/Livro";
 import { Cd } from "./model/Cd";
 import { Dvd } from "./model/Dvd";
+import { ItemAcervo } from "./model/ItemAcervo";
 
 const prompt = require('prompt-sync')();
 
-const biblioteca = new Biblioteca;
+const biblioteca = new Biblioteca();
 
 const asciiArt = `
       _.--._  _.--._
@@ -26,12 +27,12 @@ prompt();
 while (true) {
 
     console.log('Digite a opção desejada:\n1. Cadastrar Item\n2. Editar Item\n3. Remover Item\n4. Listar Todos os Itens\n5. Pegar Emprestado\n6. Devolver Item\n7. Sair');
-    const opcao = prompt('Opção: ');
+    const opcao = prompt('\nOpção: ');
 
     switch (opcao) {
         case '1':
 
-            console.log('Qual tipo de Item você deseja cadastrar?\n1. Livro\n2. Revista\n3. CD\n4. DVD');
+            console.log('\nQual tipo de Item você deseja cadastrar?\n1. Livro\n2. Revista\n3. CD\n4. DVD');
             const tipoDeItem = prompt();
 
             switch (tipoDeItem) {
@@ -81,12 +82,12 @@ while (true) {
                     break;
 
                 default:
-                    console.log("\nOpção Inválida");
+                    console.log('\nOpção Inválida');
             }
             break;
 
         case '2':
-            console.log("\nQual dos itens da biblioteca você deseja editar?\n");
+            console.log('\nQual dos itens da biblioteca você deseja editar?\n');
             biblioteca.listarItens();
 
             const itemEditar = parseInt(prompt('\nDigite o índice: '));
@@ -104,10 +105,10 @@ while (true) {
             break;
 
         case '3':
-            console.log("\nQual dos itens da biblioteca você deseja remover?\n");
+            console.log('\nQual dos itens da biblioteca você deseja remover?\n');
             biblioteca.listarItens();
 
-            const itemRemover = parseInt(prompt('\nDigite o Indice: '));
+            const itemRemover = parseInt(prompt('\nDigite o índice: '));
             biblioteca.removerItem(itemRemover);
 
             break;
@@ -119,16 +120,25 @@ while (true) {
         case '5':
             console.log("\nEscolha qual dos itens da Biblioteca você gostaria de pegar emprestado: \n");
             biblioteca.listarItens();
-
-
             
-        
+            const itemEmprestar = parseInt(prompt('\nDigite o índice: '));
+            biblioteca.emprestarItem(itemEmprestar);
+            break;
+
+        case '6':
+            console.log('\nEscolha qual dos itens da Biblioteca você gostaria de devolver: \n');
+            biblioteca.listarItens();
+
+            const itemDevolver = parseInt(prompt('Digite o índice: '));
+            biblioteca.devolverItem(itemDevolver);
+            break;
+
         case '7':
-            console.log("\nSaindo...\n")
+            console.log('\nSaindo...\n')
             break;
         
         default:
-            console.log("\nOpção Inválida!\n");
+            console.log('\nOpção Inválida!\n');
             break;
 
     }

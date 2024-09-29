@@ -9,7 +9,7 @@ export class Midia extends ItemAcervo{
     }
 
     getDescricao(): string {
-        return `${this._titulo}, publicado por ${this._autor} no ano de ${this._ano}. Duração: ${this.duracao}.\nLocalização: ${this._localizacao}, atualmente ${this.Disponivel()?'disponível':'não disponível'}.`
+        return `${this._titulo}, publicado por ${this._autor} no ano de ${this._ano}. Duração: ${this.duracao}.\nLocalização: ${this._localizacao}, atualmente ${this.getDisponivel()?'disponível':'não disponível'}.`
     }
 
     setDuracao(novaDuracao: number): void {

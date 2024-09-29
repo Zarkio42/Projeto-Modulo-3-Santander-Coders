@@ -72,4 +72,32 @@ export class Biblioteca {
     listarItens(): void {
         this.acervo.forEach((item, index) => console.log(`\n${index}: ${item.getDescricao()}\n`));
     }
+
+    emprestarItem(indice: number): void {
+        if (indice >= 0 && indice < this.acervo.length) {
+            const item = this.acervo[indice];
+            if (item.getDisponivel()) {
+                item.setDisponivel(false);
+                console.log(`Item "${item.getTitulo()}" emprestado com sucesso!`);
+            } else {
+                console.log(`O item "${item.getTitulo()}" já está emprestado.`);
+            }
+        } else {
+            console.log('Índice inválido!');
+        }
+    }
+
+    devolverItem(indice: number): void {
+        if (indice >= 0 && indice < this.acervo.length) {
+            const item = this.acervo[indice];
+            if (!item.getDisponivel()) {
+                item.setDisponivel(true);
+                console.log(`Item "${item.getTitulo()}" devolvido com sucesso!`);
+            } else {
+                console.log(`O item "${item.getTitulo()}" já está disponível.`);
+            }
+        } else {
+            console.log('Índice inválido!');
+        }
+    }
 }

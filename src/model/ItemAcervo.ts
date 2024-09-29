@@ -47,22 +47,11 @@ export abstract class ItemAcervo implements Localizacao{
         this._localizacao = localizacao;
     }
 
-    Disponivel(): boolean{
+    getDisponivel(): boolean{
         return this._disponivel;
     }
 
-    emprestarItem(): void{
-        if(this._disponivel){
-            this._disponivel = false;
-            console.log(`Item ${this._titulo} emprestado com sucesso!`)
-        }
-        else{
-            console.log(`O item ${this._titulo} não está disponível`);
-        }
-    }
-
-    devolverItem(): void{
-        this._disponivel = true;
-        console.log(`Item ${this._titulo} devolvido com sucesso!`)
+    setDisponivel(estado: boolean): void{
+        this._disponivel = estado;
     }
 }
