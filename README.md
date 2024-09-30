@@ -35,17 +35,6 @@ Este projeto consiste em desenvolver uma aplicação web que simula o sistema de
 - **Lógica de Negócio:**
   - Implementada para garantir o funcionamento correto do sistema, incluindo validação de disponibilidade de itens.
 
-## Como Usar
-
-Clone este repositório para o seu ambiente local:
-
-```bash
-git clone https://github.com/usuario/projeto-modulo-3-santander-coders.git
-cd projeto-modulo-3-santander-coders
-npm install
-npm run build
-node dist/index.js
-
 ## Tecnologias Utilizadas
 
 - TypeScript
@@ -66,3 +55,14 @@ node dist/index.js
 | Perfil         | Nome                        | Email                        | Localização      | GitHub                          | LinkedIn                   |
 |----------------|-----------------------------|------------------------------|------------------|---------------------------------|----------------------------|
 | Everton da Silva | Everton da Silva           | evercan@bol.com.br            | Localização Everton | [GitHub Everton](#)              | [LinkedIn Everton](#)       |
+
+## Como Usar
+
+Clone este repositório para o seu ambiente local:
+
+```bash
+git clone https://github.com/usuario/projeto-modulo-3-santander-coders.git
+cd projeto-modulo-3-santander-coders
+npm install
+npm run build
+node dist/index.js
