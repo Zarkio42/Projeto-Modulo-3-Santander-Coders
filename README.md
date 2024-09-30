@@ -44,4 +44,29 @@ git clone https://github.com/usuario/projeto-modulo-3-santander-coders.git
 cd projeto-modulo-3-santander-coders
 npm install
 
+Para compilar o TypeScript e rodar o projeto:
+
+```bash
+npm run build
+node dist/index.js
+
+Tecnologias Utilizadas
+TypeScript
+Node.js
+Prompt-sync (para interações no terminal)
+
+## Equipe
+
+| Nome                   | Email                        | GitHub                        | LinkedIn                  |
+|------------------------|------------------------------|-------------------------------|---------------------------|
+| **Mendelson Aleixo**    | mendelson.aleixo@gmail.com    | [GitHub do Mendelson](#)       | [LinkedIn do Mendelson](#) |
+| **Maiane Dhienis**      |                              | [GitHub da Maiane](#)          | [LinkedIn da Maiane](#)    |
+| **Pedro Cardoso**       | pedro.contato24@gmail.com     | [GitHub do Pedro](#)           | [LinkedIn do Pedro](#)     |
+| **Yashina Gomes Maciel**| yashinagm@gmail.com           | [GitHub da Yashina](#)         | [LinkedIn da Yashina](#)   |
+
+### Professor
+
+| Nome                   | Email                        | GitHub                        | LinkedIn                  |
+|------------------------|------------------------------|-------------------------------|---------------------------|
+| **Everton da Silva**    | evercan@bol.com.br            | [GitHub do Everton](#)         | [LinkedIn do Everton](#)   |
 
