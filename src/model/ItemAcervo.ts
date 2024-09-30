@@ -13,8 +13,31 @@ export abstract class ItemAcervo implements Localizacao{
         this._disponivel = true;
     }
 
-    // Método abstrato obrigatório para outras classes que herdarem. Ao chamar, ele mostra a descrição.
     abstract getDescricao(): string;
+
+    getTitulo(): string{
+        return this._titulo;
+    }
+
+    setTitulo(titulo: string): void{
+        this._titulo = titulo;
+    }
+
+    getAutor(): string{
+        return this._autor;
+    }
+
+    setAutor(autor: string):void{
+        this._autor = autor;
+    }
+
+    getAno(): number{
+        return this._ano;
+    }
+
+    setAno(ano: number): void{
+        this._ano = ano;
+    }
 
     getLocalizacao(): string {
         return this._localizacao;
@@ -24,21 +47,11 @@ export abstract class ItemAcervo implements Localizacao{
         this._localizacao = localizacao;
     }
 
-    Disponivel(): boolean{
+    getDisponivel(): boolean{
         return this._disponivel;
     }
 
-    emprestarItem(): void{
-        if(this._disponivel){
-            this._disponivel = false;
-        }
-        else{
-            console.log(`O item ${this._titulo} não está disponível`);
-        }
-    }
-
-    devolverItem(): void{
-        this._disponivel = true;
-        console.log(`Item ${this._titulo} devolvido com sucesso!`)
+    setDisponivel(estado: boolean): void{
+        this._disponivel = estado;
     }
 }
