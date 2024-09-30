@@ -13,13 +13,15 @@ export abstract class Midia extends ItemAcervo {
     this._duracao = duracao;
   }
 
-  abstract getDescricao(): string;
-
-  getDuracao(): number {
-    return this._duracao;
+  abstract getDescricao(): string {
+    return `${this._titulo}, publicado por ${this._autor} no ano de ${
+      this._ano
+    }. Duração: ${this._duracao}.\nLocalização: ${
+      this._localizacao
+    }, atualmente ${this.getDisponivel() ? "disponível" : "não disponível"}.`;
   }
 
-  setDuracao(duracao: number): void {
-    this._duracao = duracao;
+  setDuracao(novaDuracao: number): void {
+    this.duracao = novaDuracao;
   }
 }

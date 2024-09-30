@@ -18,7 +18,7 @@ export class Dvd extends Midia {
     return `DVD: ${this._titulo}, Diretor: ${this._autor}, Ano: ${this._ano}, Genero: ${this._generoFilme}, Duração: ${this._duracao} min.`;
   }
 
-  getGeneroFilme(): string {
+  generoFilme(): string {
     return this._generoFilme;
   }
   setGeneroFilme(generoFilme: string): void {
