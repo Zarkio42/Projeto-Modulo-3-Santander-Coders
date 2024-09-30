@@ -18,7 +18,7 @@ export abstract class Midia extends ItemAcervo {
       this._ano
     }. Duração: ${this._duracao}.\nLocalização: ${
       this._localizacao
-    }, atualmente ${this.Disponivel() ? "disponível" : "não disponível"}.`;
+    }, atualmente ${this.getDisponivel() ? "disponível" : "não disponível"}.`;
   }
 
   setDuracao(novaDuracao: number): void {
