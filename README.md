@@ -45,9 +45,9 @@ Este projeto consiste em desenvolver uma aplicação web que simula o sistema de
 
 | Perfil         | Nome                        | Email                        | GitHub                          | LinkedIn                   |
 |----------------|-----------------------------|------------------------------|---------------------------------|----------------------------|
-| Yashina Gomes  | Yashina Gomes Maciel         | yashinagm@gmail.com           | [GitHub Yashina](#)              | [LinkedIn Yashina](#)       |
+| Yashina Gomes  | Yashina Gomes Maciel         | yashinagm@gmail.com           | [GitHub Yashina](https://github.com/YashinaGomes/)              | [LinkedIn Yashina](#)       |
 | Mendelson Aleixo | Mendelson Aleixo e Silva    | mendelson.aleixo@gmail.com    | [GitHub Mendelson](#)            | [LinkedIn Mendelson](#)     |
-| Maiane Dhienis | Maiane Dhienis               | maiane.dhienis@example.com    | [GitHub Maiane](#)               | [LinkedIn Maiane](#)        |
+| Maiane Dhienis | Maiane Dhienis               | maiababauer@gmail.com    | [GitHub Maiane](#)               | [LinkedIn Maiane](#)        |
 | Pedro Cardoso  | Pedro Cardoso                | pedro.contato24@gmail.com     | [GitHub Pedro](#)                | [LinkedIn Pedro](#)         |
 
 ## Professor
