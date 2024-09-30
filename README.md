@@ -43,18 +43,18 @@ Este projeto consiste em desenvolver uma aplicação web que simula o sistema de
 
 ## Equipe
 
-| Perfil         | Nome                        | Email                        | Localização      | GitHub                          | LinkedIn                   |
-|----------------|-----------------------------|------------------------------|------------------|---------------------------------|----------------------------|
-| Yashina Gomes  | Yashina Gomes Maciel         | yashinagm@gmail.com           | Localização Yashina | [GitHub Yashina](#)              | [LinkedIn Yashina](#)       |
-| Mendelson Aleixo | Mendelson Aleixo e Silva    | mendelson.aleixo@gmail.com    | Localização Mendelson | [GitHub Mendelson](#)            | [LinkedIn Mendelson](#)     |
-| Maiane Dhienis | Maiane Dhienis               | maiane.dhienis@example.com    | Localização Maiane | [GitHub Maiane](#)               | [LinkedIn Maiane](#)        |
-| Pedro Cardoso  | Pedro Cardoso                | pedro.contato24@gmail.com     | Localização Pedro | [GitHub Pedro](#)                | [LinkedIn Pedro](#)         |
+| Perfil         | Nome                        | Email                        | GitHub                          | LinkedIn                   |
+|----------------|-----------------------------|------------------------------|---------------------------------|----------------------------|
+| Yashina Gomes  | Yashina Gomes Maciel         | yashinagm@gmail.com           | [GitHub Yashina](#)              | [LinkedIn Yashina](#)       |
+| Mendelson Aleixo | Mendelson Aleixo e Silva    | mendelson.aleixo@gmail.com    | [GitHub Mendelson](#)            | [LinkedIn Mendelson](#)     |
+| Maiane Dhienis | Maiane Dhienis               | maiane.dhienis@example.com    | [GitHub Maiane](#)               | [LinkedIn Maiane](#)        |
+| Pedro Cardoso  | Pedro Cardoso                | pedro.contato24@gmail.com     | [GitHub Pedro](#)                | [LinkedIn Pedro](#)         |
 
 ## Professor
 
-| Perfil         | Nome                        | Email                        | Localização      | GitHub                          | LinkedIn                   |
-|----------------|-----------------------------|------------------------------|------------------|---------------------------------|----------------------------|
-| Everton da Silva | Everton da Silva           | evercan@bol.com.br            | Localização Everton | [GitHub Everton](#)              | [LinkedIn Everton](#)       |
+| Perfil         | Nome                        | Email                        |  GitHub                          | LinkedIn                   |
+|----------------|-----------------------------|------------------------------|---------------------------------|----------------------------|
+| Everton da Silva | Everton da Silva           | evercan@bol.com.br            | [GitHub Everton](#)              | [LinkedIn Everton](#)       |
 
 ## Como Usar
 
